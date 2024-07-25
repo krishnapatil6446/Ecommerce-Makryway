@@ -417,6 +417,9 @@ body.dark-theme .navbar-menu.active {
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
@@ -481,6 +484,17 @@ body.dark-theme .navbar-menu.active {
   .about-image img:hover {
     transform: perspective(1000px) rotateY(10deg) rotateX(10deg) scale(1.05);
   }
+
+.button-container{
+  display: flex;
+  width: 80%;
+}
+.btn-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
 }
 /* Dark Theme */
 body.dark-theme .about-container {
@@ -609,17 +623,22 @@ body.dark-theme .overlay {
 
 .about-image img{
   height: 300px;
-  max-width: 100%;
+  width: 100%;
 }
 .about-content-image{
   width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
 }
 .about-image {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 300px;
-  width: 800%;
+  max-width: 100%;
+  flex-basis: auto;
   
 }
 
@@ -794,7 +813,7 @@ margin-bottom: 10px;
 }
 
 .service1 {
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
 }
 }
