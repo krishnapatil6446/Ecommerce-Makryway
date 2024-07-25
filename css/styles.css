@@ -1145,12 +1145,12 @@ border-radius: 8px;
 
 .footer-image  {
 width: 100%;
-top: -80px;
+
+top: -60px;
 left: -10px;
-height: 50px;
-max-height: 100%; /* Ensure image is visible and not too tall */
-object-fit:fill; /* Cover the section properly */
-z-index: 133;
+max-height: 10px; /* Ensure image is visible and not too tall */
+object-fit:cover; /* Cover the section properly */
+z-index: 1;
 position: relative;
 }
 
