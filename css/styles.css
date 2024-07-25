@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 body {
-  font-family: 'antonin', sans-serif;
   padding-top: 80px;
   background: linear-gradient(to right, #6a11cb, #2575fc);
   color: white;
