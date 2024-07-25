@@ -115,6 +115,7 @@ body {
 @media (max-width: 768px) {
   .navbar {
     width: 90%;
+    margin-right:30px;
   }
 
   .navbar-menu {
@@ -547,6 +548,25 @@ body.dark-theme .overlay {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .container{
+    width: 93%;
+  }
+  .image-center {
+    padding: 20px;
+  
+  }
+  
+  #package-image {
+    max-width: 100%;
+  }
+  .about-image{
+    height: 100px;
+    width: 200%;
+  }
+  .about-content-image{
+    width: 100%;
+  }
+
   .service-container {
       flex-direction: column;
       align-items: center;
@@ -567,6 +587,44 @@ body.dark-theme .overlay {
 }
 
 @media (max-width: 480px) {
+  .image-center {
+    padding: 10px;
+  }
+  .navbar {
+    
+    margin-left:20px;
+  }
+
+  
+  #package-image {
+    max-width: 120%;
+    max-height: 500px;
+    margin-right: 35px;
+  }
+
+  .view-plan-btn{
+    width: 180px;
+  }
+
+.about-image img{
+  height: 300px;
+  max-width: 100%;
+}
+.about-content-image{
+  width: 100%;
+}
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 800%;
+  
+}
+
+
+
+  
   .service-container {
       padding: 15px;
   }
@@ -634,13 +692,14 @@ body.dark-theme .overlay {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
 .view-plan-btn {
   position: absolute;
   bottom: 10px;
+  margin-left: 5%;
   left: 50%;
   transform: translateX(-50%);
   background-color: white;
@@ -1097,7 +1156,7 @@ align-items: flex-end;
 position: absolute;
 bottom: 50px;
 right: 20px;
-z-index: 1; /* Ensure the logo is above other content */
+z-index:1; /* Ensure the logo is above other content */
 width: 14%; /* Ensure the container takes up the full width */
 
 }
