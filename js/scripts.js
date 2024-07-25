@@ -47,3 +47,22 @@ document.getElementById('mission-btn').addEventListener('mouseleave', function()
   }, 300);
 });
 
+
+
+// scroll trigger anition
+
+// JavaScript to handle scroll-triggered animations
+document.addEventListener('DOMContentLoaded', function() {
+  const contactSection = document.querySelector('.contact-us-section');
+
+  function handleScroll() {
+    const sectionPosition = contactSection.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+
+    if (sectionPosition < screenPosition) {
+      contactSection.classList.add('animated');
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll);
+});
