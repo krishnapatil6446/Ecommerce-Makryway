@@ -933,7 +933,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-padding: 20px;
+padding-left: -50px; 
 animation: fadeIn 1s ease-out;
 }
 .input-color{
@@ -1047,10 +1047,15 @@ to {
 @media (max-width: 768px) {
 .contact-us-section {
   flex-direction: column;
+  margin-left: -10px;
+  
 }
 
 .contact-image {
   text-align: center;
+}
+.contact-image1{
+  padding-left: 40px ;
 }
 }
 
@@ -1089,8 +1094,8 @@ animation: slideInRight 1s ease-out;
 .contact-image1 img {
 max-width: 80%;
 height: auto;
-/* border-radius: 5px; */
-/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+border-radius: 5px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 transition: transform 0.3s;
 }
 
@@ -1242,5 +1247,8 @@ color: #007BFF;
   position: static;
   margin-top: 20px;
   text-align: center;
+}
+.footer-image{
+  z-index: -2;
 }
 }
