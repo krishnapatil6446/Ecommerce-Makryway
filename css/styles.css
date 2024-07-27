@@ -388,7 +388,7 @@ body.dark-theme .navbar-menu.active {
 }
 
 .about-image {
-  max-width: 60%;
+  max-width: 100%;
   flex-basis: 40%;
   padding: 10px;
   perspective: 1000px;

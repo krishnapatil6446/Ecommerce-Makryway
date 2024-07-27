@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Markyway</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 <!--     updated to poppins font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -155,11 +155,11 @@ imageContainer.addEventListener('mouseleave', () => {
                   <a href="#home" class="navbar-link">Home</a>
                   <a href="#about" class="navbar-link">About</a>
                   <a href="#portfolio" class="navbar-link">Portfolio</a>
-                  <a href="#career" class="navbar-link">Career</a>
+                  <a href="#services" class="navbar-link">Services</a>
                   <a href="#packages" class="navbar-link">Packages</a>
                   <a href="#contact" class="navbar-link">Contact</a>
                 </div>
-                <a href="tel:+1234567890" class="navbar-button">Call Now</a>
+                <a href="tel:+7020021251" class="navbar-button">Call Now</a>
                 <div class="navbar-toggle" id="navbarToggle">
                   <span class="navbar-toggle-icon"></span>
                   <span class="navbar-toggle-icon"></span>
@@ -169,7 +169,7 @@ imageContainer.addEventListener('mouseleave', () => {
               </div>
             </nav>
           </section>
-          <section class="hero relative custom-hero">
+          <section id="home" class="hero relative custom-hero">
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div class="mr-auto place-self-center lg:col-span-7">
                     <h1
@@ -199,7 +199,7 @@ imageContainer.addEventListener('mouseleave', () => {
         </section>
         
         
-        <section>
+        <section id="about">
           <div style="  text-shadow: 2px 2px 4px #fffbfb ; margin-top:50px; margin-bottom:-200px; margin-left:50px " class="header ">About us</div>
           <div class="container">
             
@@ -237,7 +237,7 @@ imageContainer.addEventListener('mouseleave', () => {
           </div>
         </section>
 
-        <section class="container">
+        <section id="services" class="container">
           <div style="text-shadow: 2px 2px 4px #fffbfb; text-align: left;" class="header">Our Services</div>
           <div class="service-container">
               <div class="services">
@@ -274,12 +274,12 @@ imageContainer.addEventListener('mouseleave', () => {
       <section>
         <div class="container image-center">
           <img id="package-image" src="./images/viewplan.png" alt="">
-          <button class="view-plan-btn">View Plan</button>
+          <a href="#packages"><button class="view-plan-btn">View Plan</button></a>
         </div>
       </section>
-      <!-- <div  style="text-shadow: 2px 2px 4px #fffbfb; margin-top:50px; margin-bottom:-200px; margin-left:200px " class="header E-commerce-text">E-commerce</div> -->
-      <!-- <div style="text-shadow: 2px 2px 4px #fffbfb; margin-top:50px; margin-bottom:-200px; margin-left:450px " class="header">Dropshippers</div>  -->
-      <section class="service-package container">
+      <!-- <div  style="text-shadow: 2px 2px 4px #fffbfb; margin-top:50px; margin-bottom:-200px; margin-left:200px " class="header E-commerce-text">E-commerce</div>
+      <div style="text-shadow: 2px 2px 4px #fffbfb; margin-top:50px; margin-bottom:-200px; margin-left:450px " class="header">Dropshippers</div>  -->
+      <section id="packages" class="service-package container">
         
         <div class="service1">
             
@@ -307,7 +307,7 @@ imageContainer.addEventListener('mouseleave', () => {
             </ul>
         </div>
     </section>
-    <section>
+    <section id="portfolio">
       <div  style="text-shadow: 2px 2px 4px #fffbfb; margin-top:50px; margin-bottom:-200px; margin-left:50px" class="header">Our Clients</div>
       <div class="container">
       
@@ -342,7 +342,7 @@ imageContainer.addEventListener('mouseleave', () => {
       </div>
     </div>
 </section>    
-<section class="container">
+<section id="contact" class="container">
 
   <div style="  text-shadow: 2px 2px 4px #fffbfb ; text-align: left;
   " class="header ">Contact us</div>
@@ -387,25 +387,25 @@ imageContainer.addEventListener('mouseleave', () => {
         <div class="footer-section footer-pages">
           <h3><i class="bi bi-file-text-fill"></i> Pages</h3>
           <ul>
-            <li><a href="#"><i class="bi bi-house-door-fill"></i> Home</a></li>
-            <li><a href="#"><i class="bi bi-info-circle-fill"></i> About Us</a></li>
-            <li><a href="#"><i class="bi bi-briefcase-fill"></i> Our Services</a></li>
-            <li><a href="#"><i class="bi bi-box-fill"></i> Our Packages</a></li>
-            <li><a href="#"><i class="bi bi-people-fill"></i> Our Clients</a></li>
-            <li><a href="#"><i class="bi bi-envelope-open-fill"></i> Contact Us</a></li>
+            <li><a href="#home"><i class="bi bi-house-door-fill"></i> Home</a></li>
+            <li><a href="#about"><i class="bi bi-info-circle-fill"></i> About Us</a></li>
+            <li><a href="#services"><i class="bi bi-briefcase-fill"></i> Our Services</a></li>
+            <li><a href="#packages"><i class="bi bi-box-fill"></i> Our Packages</a></li>
+            <li><a href="#portfolio"><i class="bi bi-people-fill"></i> Our Clients</a></li>
+            <li><a href="#contact"><i class="bi bi-envelope-open-fill"></i> Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-section footer-quick-links">
           <h3><i class="bi bi-link-45deg"></i> Quick Links</h3>
           <ul>
             <li><a href="#"><i class="bi bi-file-earmark-text-fill"></i> Terms and Conditions</a></li>
-            <li><a href="#"><i class="bi bi-file-earmark-lock2-fill"></i> Privacy Policy</a></li>
+            <li><a href="./privacy.html"><i class="bi bi-file-earmark-lock2-fill"></i> Privacy Policy</a></li>
           </ul>
           <div class="footer-social">
-            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="https://m.facebook.com/markywaycom/" class="social-icon"><i class="bi bi-facebook"></i></a>
             <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/markywaycom/" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/markywaycom" class="social-icon"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
         <div class="footer-section footer-logo">
